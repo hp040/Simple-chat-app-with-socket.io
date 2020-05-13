@@ -2,14 +2,8 @@ module.exports = {
   init: async () => {
     return new Promise(async (resolve, reject) => {
       express = module.exports = require("express");
-      schedule = module.exports = require("node-schedule");
       MongoClient = module.exports = require("mongodb").MongoClient;
       bodyParser = require("body-parser");
-      cheerio = module.exports = require("cheerio");
-      // request = module.exports = require("sync-request");
-      axios = module.exports = require("axios");
-      fetch = module.exports = require("node-fetch");
-      request_web = module.exports = require("request");
       app = module.exports = express();
       let http = require("http");
       let https = require("https");

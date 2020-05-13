@@ -63,4 +63,5 @@ module.exports = {
       return;
     }
   },
+  createGroup: async (data, socket) => {},
 };

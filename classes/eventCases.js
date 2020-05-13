@@ -9,6 +9,9 @@ module.exports = {
       case "register":
         eventClasses[en](data, socket);
         break;
+      case "createGroup":
+        eventClasses[en](data, socket);
+        break;
       default:
         console.log("event Not Found");
     }
