@@ -1,0 +1,6 @@
+{
+  "mongoSrv": "mongoSRV",
+  "PORT": 3001,
+  "keyFile": "",
+  "certFile": ""
+}
